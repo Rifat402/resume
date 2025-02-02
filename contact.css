@@ -1,0 +1,23 @@
+@import url("style.css");
+
+.contact-form {
+    width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-form .form-label {
+    font-weight: bold;
+}
+
+.contact-form .form-control {
+    margin-bottom: 1rem;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+}

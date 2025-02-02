@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rifat Ahmed Contact</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./index.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./career.html">Career</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./education.html">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./project.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        <h1 id="title" class="display-1">Rifat Ahmed</h1>
+        <h3>Contact Me</h3>
+        <hr>
+        <div class="contact-form">
+            <form method="POST" action="mailto:rifatahmedabdelnasir@gmail.com" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

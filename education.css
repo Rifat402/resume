@@ -1,0 +1,44 @@
+@import url("./style.css");
+
+
+#title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education ul li {
+    font-weight: bolder;
+    margin-right: 1rem;
+}
+
+.education-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.education-header img {
+    width: 5%;
+    height: auto;
+}
+
+.education-header h4 {
+    margin: 0;
+    margin-left: 1rem;
+}
